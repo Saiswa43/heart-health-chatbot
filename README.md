@@ -55,6 +55,7 @@ Place the BioMistral .gguf model file inside the models/ folder.
 streamlit run app.py
 ```
 ### Project Structure
+```bash
 heart-health-chatbot/
 │
 ├── .env                  # API keys (not tracked)
@@ -70,3 +71,4 @@ heart-health-chatbot/
 ├── assets/               # Screenshots and images
 └── venv/                 # Virtual environment (ignored)
 
+```

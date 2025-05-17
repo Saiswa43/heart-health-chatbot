@@ -72,3 +72,10 @@ heart-health-chatbot/
 └── venv/                 # Virtual environment (ignored)
 
 ```
+### Security Note
+Do NOT commit .env or any API keys.
+.gitignore is configured to exclude sensitive files and folders.
+### License
+MIT License — see LICENSE.
+### Acknowledgements
+Thanks to GUVI’s GenAI course and the open-source tools: LangChain, SentenceTransformers, Streamlit, and BioMistral.

@@ -74,6 +74,7 @@ heart-health-chatbot/
 ```
 ### Security Note
 Do NOT commit .env or any API keys.
+
 .gitignore is configured to exclude sensitive files and folders.
 ### License
 MIT License — see LICENSE.

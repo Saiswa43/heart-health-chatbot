@@ -24,7 +24,8 @@ It uses a Retrieval-Augmented Generation (RAG) pipeline to combine large languag
 - Open-source LLM-based with semantic search.  
 - Streamlit-powered web app deployment.  
 - Secure environment variable handling.
-## Screenshots
+## Chatbot in Action
+
 ### Chatbot Interface
 The screenshot below shows the user-friendly Streamlit interface of the Heart Health Chatbot. You can input your queries related to heart health, and the chatbot responds with accurate, context-aware answers based on the embedded medical documents.
 

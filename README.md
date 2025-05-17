@@ -31,7 +31,42 @@ It uses a Retrieval-Augmented Generation (RAG) pipeline to combine large languag
 ```bash
 git clone https://github.com/your-username/heart-health-chatbot.git
 cd heart-health-chatbot
+```
 ### Create & activate virtual environment
 ```bash
 python -m venv venv
 venv\Scripts\activate
+```
+### Install dependencies
+```bash
+pip install -r requirements.txt
+```
+### Create .env file
+Add your Hugging Face token:
+```bash
+HUGGINGFACEHUB_API_TOKEN=your_token_here
+```
+### Add your data
+Place heart health PDFs inside the data/ folder
+### Add the model
+Place the BioMistral .gguf model file inside the models/ folder.
+### Run the app
+```bash
+streamlit run app.py
+```
+### Project Structure
+heart-health-chatbot/
+│
+├── .env                  # API keys (not tracked)
+├── .gitignore            # Git ignore rules
+├── app.py                # Streamlit app entry
+├── chatbot.py            # RAG pipeline logic
+├── prompt_template.py    # Custom prompt text
+├── requirements.txt      # Python packages
+├── README.md             # This file
+│
+├── data/                 # Medical PDFs
+├── models/               # LLM model files
+├── assets/               # Screenshots and images
+└── venv/                 # Virtual environment (ignored)
+

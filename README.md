@@ -31,3 +31,7 @@ It uses a Retrieval-Augmented Generation (RAG) pipeline to combine large languag
 ```bash
 git clone https://github.com/your-username/heart-health-chatbot.git
 cd heart-health-chatbot
+### Create & activate virtual environment
+```bash
+python -m venv venv
+venv\Scripts\activate

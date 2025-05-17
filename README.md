@@ -83,7 +83,8 @@ Thanks to GUVI’s GenAI course and the open-source tools: LangChain, SentenceTr
 ## Screenshots
 ### Chatbot Interface
 The screenshot below shows the user-friendly Streamlit interface of the Heart Health Chatbot. You can input your queries related to heart health, and the chatbot responds with accurate, context-aware answers based on the embedded medical documents.
-![Chatbot Interface](assets/Screenshot 2025-05-17 110116.png)
+![Chatbot Screenshot](assets/Screenshot%202025-05-17%20110116.png)
+
 
 
 
